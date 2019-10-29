@@ -1,0 +1,11 @@
+body {
+  padding: 64px;
+  background-image: linear-gradient(#ed3142, #721b4c, #5a3142);
+  min-height: 5000px;
+}
+
+#hero-image {
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+}
