@@ -1,0 +1,41 @@
+body {
+  padding: 64px;
+  background-image: linear-gradient(#ed3142, #721b4c, #5a3142);
+  min-height: 5000px;
+}
+
+#hero-image {
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+h1{
+	color: yellow;
+	
+}
+
+nav {
+  float: left;
+  width: 50%;
+  height: 300px; /* only for demonstration, should be removed */
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  background-color: red; /* red */
+  border: 2px solid #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
