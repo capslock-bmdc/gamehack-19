@@ -1,9 +1,20 @@
 body {
   background-image: linear-gradient(#ed3142, #721b4c, #5a3142);
+  font-family: "Share Tech Mono", monospace;
 }
 
 section {
   padding: 64px;
+}
+
+h2 {
+  color: #10cfc8;
+  font-size: 64px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
 }
 
 #hero-image {
@@ -30,8 +41,8 @@ section {
 .spaceship {
   position: fixed;
   background-image: url("images/spaceship.png");
-  background-repeat:no-repeat;
-   background-size:contain;
+  background-repeat: no-repeat;
+  background-size: contain;
   user-select: none;
   z-index: -1000;
   pointer-events: none;
@@ -39,32 +50,36 @@ section {
   height: 300px;
 }
 
-h1 {
-  color: yellow;
-}
-
-nav {
-  float: left;
-  width: 50%;
-  
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-button {
-  background-color: red; /* red */
-  border: 2px solid #4caf50;
-  color: white;
-  padding: 15px 32px;
+.collapsible {
+  margin: 16px auto 0 auto;
+  background-color: #ed3141c7;
+  color: #fff;
+  cursor: pointer;
+  padding: 32px;
+  width: 512px;
+  border: none;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  outline: none;
+  font-size: 24px;
+  display: block;
+  font-family: "Share Tech Mono", monospace;
 }
 
-/*center.borders {border-style: double;}*/
+.active,
+.collapsible:hover {
+  background-color: #ed3142;
+}
+
+.content {
+  margin: 0 auto 16px auto;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  width: 500px;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #ed3141c7;
+  text-align: center;
+  color: #10cfc8;
+}

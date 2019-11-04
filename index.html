@@ -7,58 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles.css">
   <title>GAMEHACK 19</title>
-  <script src="spaceship-animation.js" type="text/javascript" ></script>
-  <script>
-
-    
-    function hackaton1() {
-	document.getElementById("head").innerHTML = "Graphics";
-      document.getElementById("display").innerHTML = "Any quality is good";
-	  document.getElementById("p.s").innerHTML = "P.S. Nicer graphics gets more points";
-	  
-    }
-    function hackaton2() {
-      document.getElementById("head").innerHTML = "Participation";
-      document.getElementById("display").innerHTML = "Anyone and everyone can participate";
-	  document.getElementById("p.s").innerHTML = "P.S. not only yeshiva students, but also friends and graduates";
-      
-    }
-    function hackaton3() {
-      document.getElementById("head").innerHTML = "Games";
-      document.getElementById("display").innerHTML = "Any type of game will suffice, including 2D, 3D, console and graphics";
-	  document.getElementById("p.s").innerHTML = "P.S. make it multiplayer, and make it fun";
-      
-    }
-    function hackaton4() {
-      document.getElementById("head").innerHTML = "Team";
-      document.getElementById("display").innerHTML = "No, you can join anyone elses team";
-	  document.getElementById("p.s").innerHTML = "P.S. go to an organizer to help you find a team";
-      
-    } function hackaton5() {
-      document.getElementById("head").innerHTML = "When";
-      document.getElementById("display").innerHTML = "until November 11th";
-	  document.getElementById("p.s").innerHTML = "P.S. please do it as early as possible";
-      
-    }
-    function hackaton6() {
-      document.getElementById("head").innerHTML = "How";
-      document.getElementById("display").innerHTML = "Using this form";
-	  document.getElementById("p.s").innerHTML = "";
-      
-    }
-    function hackaton7() {
-      document.getElementById("head").innerHTML = "Food";
-      document.getElementById("display").innerHTML = "Yes, lots";
-	  document.getElementById("p.s").innerHTML = "P.S. banana";
-      
-    }
-    function hackaton8() {
-      document.getElementById("head").innerHTML = "Free";
-      document.getElementById("display").innerHTML = "YUP";
-	  document.getElementById("p.s").innerHTML = "P.S. although you pay with your soul";
-      
-    }
-  </script>
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <script src="spaceship-animation.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -68,57 +18,63 @@
   </section>
 
   <section>
-    <center>
-      <h1>FAQ</h1>
-    </center>
-    <nav>
-      <ul>
-        <center>
-          <h1>
-            <li><button id="graphic" onclick="hackaton1()">What graphic quality does he game need to have?</button></li>
-          </h1>
-          <h1>
-            <li><button id="participate" onclick="hackaton2()">Who can Participate in the gamehack 2019?</button></li>
-          </h1>
-          <h1>
-            <li><button id="types" onclick="hackaton3()">What type of game do we need to build?</button></li>
-          </h1>
-          <h1>
-            <li><button id="build" onclick="hackaton4()">Do i need to build my own team?</button></li>
-          </h1>
-          <h1>
-            <li><button id="when" onclick="hackaton5()">Until when can I register?</button></li>
-          </h1>
-          <h1>
-            <li><button id="register" onclick="hackaton6()">How do I register?</button></li>
-          </h1>
-          <h1>
-            <li><button id="food" onclick="hackaton7()">Is there food?</button></li>
-          </h1>
-          <h1>
-            <li><button id="free" onclick="hackaton8()">Is it free?</button></li>
-          </h1>
-        </center>
-      </ul>
-    </nav>
+    <h2>About</h2>
+  </section>
 
-    <article>
-      <center class="borders">
-        <h1 id="head"></h1>
-        <h2 id= "display"></h2>
-        <h2 id = "p.s"></h2>
-      </center>
-    </article>
+  <section>
+    <h2>FAQ</h2>
+
+    <button class="collapsible">What graphic quality does he game need to have?</button>
+    <div class="content">
+      <p>Any quality is good, although nicer graphics gets more points.</p>
+    </div>
+
+    <button class="collapsible">Who can Participate in the gamehack 2019?</button>
+    <div class="content">
+      <p>Anyone and everyone can participate, not only yeshiva students, but also friends and graduates.</p>
+    </div>
+
+    <button class="collapsible">What type of game do we need to build?</button>
+    <div class="content">
+      <p>Any type of game will suffice, including 2D, 3D, console and graphics. But it must be a multiplayer game (and
+        fun).</p>
+    </div>
+
+    <button class="collapsible">Until when can I register?</button>
+    <div class="content">
+      <p>Until November 11th, P.S. Please do it as early as possible.</p>
+    </div>
+
+    <button class="collapsible">How do I register?</button>
+    <div class="content">
+      <p>Using this form</p>
+    </div>
+
+    <button class="collapsible">Is there food?</button>
+    <div class="content">
+      <p>Yes, lots. Including bananas.</p>
+    </div>
+
+    <button class="collapsible">Is it free?</button>
+    <div class="content">
+      <p>YUP, although you pay with your soul.</p>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>Contact</h2>
   </section>
 
   <img id="bottom-image" src="images/bottom-image.png" />
   <style>
-      
-    </style>
-    
-    <div id="spaceships">
-      <span class="spaceship"></span>
-    </div>
+
+  </style>
+
+  <div id="spaceships">
+    <span class="spaceship"></span>
+  </div>
+  <script src="main.js" type="text/javascript"></script>
 </body>
 
 </html>
