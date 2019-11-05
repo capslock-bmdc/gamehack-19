@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(#ed3142, #721b4c, #5a3142);
+  min-height: 100vh;
   font-family: "Share Tech Mono", monospace;
 }
 
@@ -13,8 +14,17 @@ h2 {
   text-align: center;
 }
 
+h4 {
+  color: #fff;
+  font-size: 24px;
+}
+
 p {
   font-size: 20px;
+}
+
+a {
+  color: #fff;
 }
 
 #hero-image {
@@ -31,11 +41,52 @@ p {
   margin: 0 auto;
 }
 
+#about-content {
+  padding: 24px 124px;
+  text-align: center;
+}
+
 #spaceships {
   position: absolute;
   left: 0px;
   top: 0px;
   display: none;
+}
+
+#chet-bubble {
+  padding: 204px;
+}
+
+#contact-form {
+  width: 750px;
+  margin: 0 auto;
+}
+
+#action-section {
+  margin: 0 auto;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.button {
+  padding: 16px 32px;
+  margin: 32px;
+  border: 6px solid #ed3141c7;
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+}
+
+.button:hover {
+  border: 6px solid #ed3142;
+}
+
+.button.primary {
+  background-color: #ed3141c7;
+}
+
+.button.primary:hover {
+  background-color: #ed3142;
 }
 
 .spaceship {
@@ -53,14 +104,12 @@ p {
 .collapsible {
   margin: 16px auto 0 auto;
   background-color: #ed3141c7;
-  color: #fff;
   cursor: pointer;
   padding: 32px;
-  width: 512px;
+  width: 750px;
   border: none;
   text-align: center;
   outline: none;
-  font-size: 24px;
   display: block;
   font-family: "Share Tech Mono", monospace;
 }
@@ -76,7 +125,7 @@ p {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  width: 500px;
+  width: 738px;
   border-style: solid;
   border-width: 6px;
   border-color: #ed3141c7;
