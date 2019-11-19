@@ -5,6 +5,7 @@
 
 html {
   font-family: "Share Tech Mono", monospace;
+  min-height: 100vh;
 }
 
 body {
