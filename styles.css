@@ -137,6 +137,7 @@ a {
 @media only all and (max-width: 800px) {
   .button {
     padding: 8px;
+    margin: 32px 8px;
   }
 }
 
