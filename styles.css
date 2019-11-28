@@ -1,10 +1,14 @@
 * {
   box-sizing: border-box;
-  font-family: "Share Tech Mono", monospace;
 }
 
-html {
+html.en {
   font-family: "Share Tech Mono", monospace;
+  min-height: 100vh;
+}
+
+html.he {
+  font-family: 'Miriam Libre', sans-serif;
   min-height: 100vh;
 }
 
@@ -122,6 +126,20 @@ a {
   #logo-badge img {
     height: 80px;
   }
+}
+
+.english-link {
+  font-family: "Share Tech Mono", monospace;
+  right: 0;
+  padding: 24px;
+  position: absolute;
+}
+
+.hebrew-link {
+  font-family: 'Miriam Libre', sans-serif;
+  right: 0;
+  padding: 24px;
+  position: absolute;
 }
 
 .button {
