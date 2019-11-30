@@ -67,7 +67,7 @@ a {
   margin: 0 auto;
 }
 
-#about-content {
+.text-content {
   padding: 24px 0;
   margin: 0 auto;
   text-align: center;
@@ -75,7 +75,7 @@ a {
 }
 
 @media only all and (max-width: 800px) {
-  #about-content {
+  .text-content {
     padding: 12px 0;
     width: 90%;
   }
@@ -133,6 +133,13 @@ a {
   right: 0;
   padding: 24px;
   position: absolute;
+}
+
+.github-link {
+  right: 0;
+  bottom: 0;
+  padding: 24px;
+  /* position: absolute; */
 }
 
 .hebrew-link {
