@@ -8,7 +8,7 @@ console.log(auto);
 switch (auto) {
   case "timer":
     globalKey = "t";
-    timer(new Date("December 20, 2019 05:00:00").getTime());
+    timer(new Date("December 20, 2019 05:30:00").getTime());
     break;
   case "customTimer":
     customTimer();
